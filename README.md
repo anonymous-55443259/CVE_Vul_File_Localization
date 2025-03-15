@@ -1,5 +1,8 @@
 # Valor: Enhancing Vulnerability-Relevant File Discovery through an Agent-Based Framework
 
+## Framework
+![](./framework.png)
+
 ## Code
 
 ### CVE Analyst
