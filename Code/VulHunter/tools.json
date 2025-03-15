@@ -1,0 +1,21 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "view_file_contents",
+            "description": "View the contents of a specified file.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "file_name": {
+                        "type": "string",
+                        "description": "The full path to the file."
+                    }
+                },
+                "required": ["file_name"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+]

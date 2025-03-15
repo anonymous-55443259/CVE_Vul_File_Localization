@@ -1,0 +1,40 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "google_search",
+            "description": "search for specified keyword",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "keyword": {
+                        "type": "string",
+                        "description": "keyword to search"
+                    }
+                },
+                "required": ["keyword"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "access_web_page",
+            "description": "access the content of the specified URL",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "URL": {
+                        "type": "string",
+                        "description": "URL to access"
+                    }
+                },
+                "required": ["URL"],
+                "additionalProperties": false
+            },
+            "strict": true
+        }
+    }
+]
